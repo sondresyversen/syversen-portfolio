@@ -1,0 +1,801 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta http-equiv="Content-Security-Policy" content="
+  default-src 'self';
+
+  script-src 'self' 'unsafe-inline' https://challenges.cloudflare.com;
+
+  style-src 'self' 'unsafe-inline' https://cdn.lineicons.com https://use.typekit.net https://p.typekit.net;
+
+  font-src 'self' https://cdn.lineicons.com https://use.typekit.net https://p.typekit.net data:;
+
+  frame-src https://challenges.cloudflare.com;
+
+  connect-src 'self' https://challenges.cloudflare.com;
+">
+
+    <meta name="yandex-verification" content="e1d8e3e2c9de2bdb" />
+
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+
+    <link rel="preload" as="image" href="/images/Programmer.webp" fetchpriority="high">
+
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://use.typekit.net/cok1ofi.css">
+    <link rel="icon" type="image/x-icon" href="images/favicon.ico">
+    <link rel="canonical" href="https://syversen.dev">
+    <link rel="stylesheet" href="https://cdn.lineicons.com/5.1/line/lineicons.css" />
+    <meta name="description"
+        content="Web developer from Norway building modern websites and creative digital solutions. Explore my portfolio of coding, technology, and development work.">
+
+    <title>Sondre Syversen | Portfolio - Technology & Web Projects</title>
+    <meta property="og:title" content="Sondre Syversen | Portfolio - Technology & Web Projects" />
+    <meta property="og:description"
+        content="Web developer from Norway building modern websites and creative digital solutions. Explore my portfolio of coding, technology, and development work." />
+    <meta property="og:image" content="https://syversen.dev/images/preview.webp" />
+    <meta property="og:url" content="https://syversen.dev" />
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="Sondre Syversen | Portfolio" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Sondre Syversen | Portfolio - Technology & Web Projects" />
+    <meta name="twitter:description"
+        content="Web developer from Norway building modern websites and creative digital solutions. Explore my portfolio of coding, technology, and development work." />
+    <meta name="twitter:image" content="https://syversen.dev/images/preview.webp" />
+
+    <meta name="format-detection" content="telephone=no,email=no,address=no">
+
+    <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "name": "Sondre Syversen",
+  "url": "https://syversen.dev",
+  "image": "https://syversen.dev/images/preview.webp",
+  "jobTitle": "Student (Information Technology and Media Production)",
+  "description": "High school student from Norway interested in web development, AI, Arduino, and software projects.",
+  "address": {
+    "@type": "PostalAddress",
+    "addressCountry": "NO"
+  },
+  "sameAs": [
+    "https://github.com/sondresyversen",
+    "https://linkedin.com/in/sondre-syversen"
+  ],
+  "knowsAbout": [
+    "Web Development",
+    "HTML",
+    "CSS",
+    "JavaScript",
+    "Python",
+    "Arduino",
+    "IoT Systems",
+    "Artificial Intelligence",
+    "Frontend Development",
+    "Adobe XD",
+    "Final Cut Pro",
+    "Video Editing",
+    "Photo Editing",
+    "Premiere Pro",
+    "Adobe Photoshop"
+  ]
+}
+</script>
+
+
+    <link rel="preconnect" href="https://challenges.cloudflare.com" />
+
+    <script src="https://challenges.cloudflare.com/turnstile/v0/api.js" async defer></script>
+</head>
+
+<body>
+    <div class="background-glow"></div>
+    <nav>
+        <div class="left">
+            <i class="lni lni-code-1"></i>
+            <h4>Sondre Syversen</h4>
+        </div>
+
+        <button class="hamburger" onclick="toggleMenu()">
+            <i id="menuIcon" class="lni lni-menu-hamburger-1"></i>
+        </button>
+
+        <ul class="right" id="navMenu">
+            <li><a href="#home" onclick="closeMenu()">Home</a></li>
+            <li><a href="#about" onclick="closeMenu()">About</a></li>
+            <li><a href="#projects" onclick="closeMenu()">Projects</a></li>
+            <li><a href="#skills" onclick="closeMenu()">Skills</a></li>
+            <li><a href="#contact" onclick="closeMenu()">Contact</a></li>
+        </ul>
+    </nav>
+
+    <section id="home" class="hero-section">
+        <div class="hero-left">
+            <h3>Hi, I am</h3>
+
+            <h1 class="name">Sondre Syversen</h1>
+
+            <div class="roles">
+                <span>IT-student</span>
+                <div class="line"></div>
+                <span>Developer</span>
+                <div class="line"></div>
+                <span>Problem solver</span>
+            </div>
+
+            <p>
+                I am passionate about technology and enjoy creating solutions <br>
+                that combine code, design, and usability.
+            </p>
+
+            <div class="cta-buttons">
+                <a href="#projects">
+                    <button class="primary">
+                        View my projects <i class="lni lni-arrow-right"></i>
+                    </button>
+                </a>
+
+                <a href="files/CV.pdf">
+                    <button class="secondary">
+                        Download CV <i class="lni lni-download-1"></i>
+                    </button>
+                </a>
+            </div>
+
+            <div class="socials">
+                <a href="https://github.com/sondresyversen"><i class="lni lni-github"></i></a>
+                <a href="https://linkedin.com/in/sondre-syversen"><i class="lni lni-linkedin"></i></a>
+                <a href="mailto:syversen.sondre@outlook.com"><i class="lni lni-envelope-1"></i></a>
+                <a href="#skills"><i class="lni lni-graduation-cap-1"></i></a>
+            </div>
+        </div>
+
+        <div class="hero-right">
+            <img src="images/Programmer.webp" fetchpriority="high"
+                alt="Developer working on programming projects at a computer setup">
+        </div>
+    </section>
+
+    <section class="about-section">
+
+        <div class="about-left">
+            <span class="section-tag">
+                <i class="lni lni-user"></i>
+                ABOUT ME
+            </span>
+
+            <h2>A little about me</h2>
+
+            <p>
+                My name is Sondre Syversen and I am studying VG2 Information Technology.
+                I am curious, eager to learn and love working with technology,
+                problem solving and creative projects.
+            </p>
+
+            <p>
+                In my free time I enjoy programming, robotics, 3D printing and music.
+                I enjoy working both individually and in a team.
+            </p>
+
+            <button class="about-btn" onclick="toggleAbout()">
+                <span id="buttonText">More about me</span>
+            </button>
+
+            <div class="more-about" id="moreAbout">
+
+                <div class="about-card">
+                    <h4>My story</h4>
+                    <p>
+                        My interest in technology started with curiosity about
+                        how things work. Eventually, I began to explore
+                        programming, problem solving, and robotics.
+                    </p>
+                </div>
+
+                <div class="about-card">
+                    <h4>What I'm working on</h4>
+                    <p>
+                        I enjoy developing websites, exploring AI and building creative
+                        solutions that combine technology and design. I am constantly working on new arduino projects,
+                        which I find really
+                        fun. Here I work on the entire process, from idea to
+                        finished product. I have also worked on projects where I have integrated IoT solutions and Wifi.
+                    </p>
+                </div>
+
+                <div class="about-card">
+                    <h4>My goals</h4>
+                    <p>
+                        I am passionate about technology, and my goal is to specialize in development and robotics,
+                        and help build Norway's future on the technology front.
+                    </p>
+                </div>
+
+            </div>
+        </div>
+
+        <div id="about" class="about-right">
+
+            <div class="info-item">
+                <div class="icon-box">
+                    <i class="lni lni-user-4"></i>
+                </div>
+
+                <div>
+                    <h4>Age</h4>
+                    <p>17 years old</p>
+                </div>
+            </div>
+
+            <div class="info-item">
+                <div class="icon-box">
+                    <i class="lni lni-map-marker-5"></i>
+                </div>
+
+                <div>
+                    <h4>Place of residence</h4>
+                    <p>Innlandet, Norway</p>
+                </div>
+            </div>
+
+            <div class="info-item">
+                <div class="icon-box">
+                    <i class="lni lni-graduation-cap-1"></i>
+                </div>
+
+                <div>
+                    <h4>Education</h4>
+                    <p>VG2 Information technology</p>
+                </div>
+            </div>
+
+            <div class="info-item">
+                <div class="icon-box">
+                    <i class="lni lni-code-1"></i>
+                </div>
+
+                <div>
+                    <h4>Interests</h4>
+                    <p>Programming, Robotics, 3D-printing, Technology, Music</p>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <section id="projects" class="projects-section">
+
+        <div class="projects-header">
+
+            <div>
+                <span class="section-tag">
+                    <i class="lni lni-folder"></i>
+                    PROJECTS
+                </span>
+
+                <h2>Some of my projects</h2>
+            </div>
+
+            <button class="projects-btn" onclick="toggleProjects()">
+                <span id="projectsButtonText">
+                    View all my projects
+                </span>
+            </button>
+
+        </div>
+
+        <div class="projects-grid">
+
+            <div class="project-card">
+
+                <img src="images/HTML.webp" loading="lazy"
+                    alt="Web development project open in VS Code showing HTML and CSS code for a responsive website">
+
+                <div class="project-content">
+
+                    <div class="project-top">
+                        <h3>Website</h3>
+
+                        <span class="tech-tag green">
+                            HTML / CSS
+                        </span>
+                    </div>
+
+                    <p>
+                        Developed a responsive website using HTML, CSS and JavaScript with mobile-first design
+                        principles.
+                    </p>
+
+                    <div class="project-links">
+                        <a href="https://gjodev.no">
+                            <i class="lni lni-code-1"></i>
+                        </a>
+
+                        <a href="https://github.com/sondresyversen/gjodev">
+                            <i class="lni lni-github"></i>
+                        </a>
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="project-card">
+
+                <img src="images/Sheetmaster.webp" loading="lazy"
+                    alt="UI/UX app prototype designed in Adobe XD for a sheet music learning application">
+
+                <div class="project-content">
+
+                    <div class="project-top">
+                        <h3>App Prototype</h3>
+
+                        <span class="tech-tag purple">
+                            Adobe XD
+                        </span>
+                    </div>
+
+                    <p>
+                        Designed an app prototype for a sheet
+                        music learning application.
+                    </p>
+
+                    <div class="project-links">
+                        <a href="https://github.com/sondresyversen/sheetmaster">
+                            <i class="lni lni-github"></i>
+                        </a>
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="project-card">
+
+                <img src="images/Tutorial.webp" loading="lazy"
+                    alt="Video editing timeline in Final Cut Pro showing an educational Arduino IoT tutorial project">
+
+                <div class="project-content">
+
+                    <div class="project-top">
+                        <h3>Tutorial Video</h3>
+
+                        <span class="tech-tag purple">
+                            Final Cut Pro
+                        </span>
+                    </div>
+
+                    <p>
+                        Produced and edited an educational
+                        video teaching Arduino IoT.
+                    </p>
+
+                    <div class="project-links">
+                        <a href="https://youtu.be/sQ2P0nc7iTc">
+                            <i class="lni lni-play"></i>
+                        </a>
+                    </div>
+
+                </div>
+            </div>
+
+        </div>
+
+        <div class="extra-projects" id="extraProjects">
+
+            <div class="project-card">
+
+                <img src="images/CallPoint.webp" loading="lazy"
+                    alt="Arduino-based IoT alarm system hardware setup with wireless components and call point trigger">
+
+                <div class="project-content">
+
+                    <div class="project-top">
+                        <h3>IoT Alarm System</h3>
+
+                        <span class="tech-tag blue">
+                            Arduino
+                        </span>
+                    </div>
+
+                    <p>
+                        Built a wireless IoT alarm system using Arduino Uno R4 WiFi, ESP32 microcontrollers
+                        and Arduino Cloud. The system includes a manual trigger, remote bell units,
+                        cloud synchronization and a dashboard for monitoring, activation and reset.
+                    </p>
+
+                    <div class="project-links">
+                        <a href="https://github.com/sondresyversen/alarmsystem">
+                            <i class="lni lni-github"></i>
+                        </a>
+
+                        <a href="https://youtube.com/shorts/rqKqNqreE2E">
+                            <i class="lni lni-play"></i>
+                        </a>
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="project-card">
+
+                <img src="images/python.webp" loading="lazy"
+                    alt="Python Tkinter image carousel application built in VS Code">
+
+                <div class="project-content">
+
+                    <div class="project-top">
+                        <h3>Python Application</h3>
+
+                        <span class="tech-tag green">
+                            Python / Tkinter
+                        </span>
+                    </div>
+
+                    <p>
+                        Developed an image carousel application using python and the
+                        library tkinter. Used pillow for image processing.
+                    </p>
+
+                    <div class="project-links">
+                        <a href="https://github.com/sondresyversen/tkinterimagecarousel">
+                            <i class="lni lni-github"></i>
+                        </a>
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="project-card">
+
+                <img src="/images/windows11.webp" loading="lazy" alt="Windows 11 wallpaper and logo">
+
+                <div class="project-content">
+
+                    <div class="project-top">
+                        <h3>Windows 11 Installation</h3>
+
+                        <span class="tech-tag blue">
+                            Operative Systems
+                        </span>
+                    </div>
+
+                    <p>
+                        Installed Windows 11 on a computer. Created a bootable drive using my MacBook.
+                    </p>
+
+                    <div class="project-links">
+                        <i class="lni lni-github"></i>
+                    </div>
+
+                </div>
+            </div>
+
+        </div>
+
+    </section>
+
+    <section id="skills" class="skills-section">
+
+        <div class="skills-header">
+            <div>
+                <span class="section-tag">
+                    <i class="lni lni-bar-chart"></i>
+                    SKILLS
+                </span>
+
+                <h2>Skills I've developed</h2>
+            </div>
+        </div>
+
+        <div class="skills-grid">
+
+            <div class="skill-card">
+
+                <div class="skill-title">
+                    <i class="lni lni-code"></i>
+                    <h3>Programming</h3>
+                </div>
+
+                <div class="skill">
+                    <span>HTML</span>
+                    <div class="progress">
+                        <div class="fill green" style="width: 100%"></div>
+                    </div>
+                </div>
+
+                <div class="skill">
+                    <span>CSS</span>
+                    <div class="progress">
+                        <div class="fill green" style="width: 100%"></div>
+                    </div>
+                </div>
+
+                <div class="skill">
+                    <span>Python</span>
+                    <div class="progress">
+                        <div class="fill green" style="width: 85%"></div>
+                    </div>
+                </div>
+
+                <div class="skill">
+                    <span>JavaScript</span>
+                    <div class="progress">
+                        <div class="fill green" style="width: 40%"></div>
+                    </div>
+                </div>
+
+                <div class="skill">
+                    <span>Swift</span>
+                    <div class="progress">
+                        <div class="fill green" style="width: 35%"></div>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="skill-card">
+
+                <div class="skill-title">
+                    <i class="lni lni-display"></i>
+                    <h3>IT & technology</h3>
+                </div>
+
+                <div class="skill">
+                    <span>Network</span>
+                    <div class="progress">
+                        <div class="fill blue" style="width: 95%"></div>
+                    </div>
+                </div>
+
+                <div class="skill">
+                    <span>Operative systems</span>
+                    <div class="progress">
+                        <div class="fill blue" style="width: 80%"></div>
+                    </div>
+                </div>
+
+                <div class="skill">
+                    <span>Hardware</span>
+                    <div class="progress">
+                        <div class="fill blue" style="width: 80%"></div>
+                    </div>
+                </div>
+
+                <div class="skill">
+                    <span>Windows server</span>
+                    <div class="progress">
+                        <div class="fill blue" style="width: 70%"></div>
+                    </div>
+                </div>
+
+                <div class="skill">
+                    <span>Microsoft Entra ID / Intune</span>
+                    <div class="progress">
+                        <div class="fill blue" style="width: 30%"></div>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="skill-card">
+
+                <div class="skill-title">
+                    <i class="lni lni-camera"></i>
+                    <h3>Media production</h3>
+                </div>
+
+                <div class="skill">
+                    <span>Adobe XD</span>
+                    <div class="progress">
+                        <div class="fill purple" style="width: 80%"></div>
+                    </div>
+                </div>
+
+                <div class="skill">
+                    <span>Final Cut Pro</span>
+                    <div class="progress">
+                        <div class="fill purple" style="width: 70%"></div>
+                    </div>
+                </div>
+
+                <div class="skill">
+                    <span>Adobe Illustrator</span>
+                    <div class="progress">
+                        <div class="fill purple" style="width: 60%"></div>
+                    </div>
+                </div>
+
+                <div class="skill">
+                    <span>Adobe Photoshop</span>
+                    <div class="progress">
+                        <div class="fill purple" style="width: 30%"></div>
+                    </div>
+                </div>
+
+                <div class="skill">
+                    <span>Logic Pro</span>
+                    <div class="progress">
+                        <div class="fill purple" style="width: 20%"></div>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="skill-card">
+
+                <div class="skill-title">
+                    <i class="lni lni-users"></i>
+                    <h3>General skills</h3>
+                </div>
+
+                <div class="skill">
+                    <span>Cooperation</span>
+                    <div class="progress">
+                        <div class="fill lime" style="width: 95%"></div>
+                    </div>
+                </div>
+
+                <div class="skill">
+                    <span>Communication</span>
+                    <div class="progress">
+                        <div class="fill lime" style="width: 95%"></div>
+                    </div>
+                </div>
+
+                <div class="skill">
+                    <span>Project work</span>
+                    <div class="progress">
+                        <div class="fill lime" style="width: 95%"></div>
+                    </div>
+                </div>
+
+                <div class="skill">
+                    <span>Attention to detail</span>
+                    <div class="progress">
+                        <div class="fill lime" style="width: 95%"></div>
+                    </div>
+                </div>
+
+                <div class="skill">
+                    <span>Problem solving</span>
+                    <div class="progress">
+                        <div class="fill lime" style="width: 95%"></div>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <section id="contact" class="contact-section">
+
+        <div class="contact-top">
+
+            <div class="contact-left">
+
+                <div class="contact-header">
+
+                    <div>
+                        <span class="section-tag">
+                            CONTACT
+                        </span>
+
+                        <h2>Let's get in touch!</h2>
+                    </div>
+
+                </div>
+
+                <p class="contact-text">
+                    I am always open to a chat about projects, internships or exciting opportunities.
+                </p>
+
+            </div>
+
+        </div>
+
+        <form class="contact-form" action="https://formsubmit.co/1aaf604896e81fe42c7720c88efcc131" method="POST">
+
+            <div class="form-grid">
+
+                <input type="text" name="name" placeholder="Your name" required>
+                <input type="email" name="email" placeholder="Your email" required>
+
+            </div>
+
+            <textarea name="message" placeholder="Your message" rows="6" required></textarea>
+
+            <div class="cf-turnstile" data-sitekey="0x4AAAAAADoTMTchaXhVLiQ6" data-theme="light" data-size="normal"
+                data-callback="onSuccess"></div>
+
+            <button type="submit" class="contact-btn">
+                Send Message <i class="lni lni-arrow-right"></i>
+            </button>
+
+        </form>
+
+    </section>
+
+    <footer>
+        <p>© 2026 Sondre Syversen - Digital Portfolio</p>
+    </footer>
+
+
+    <script>
+        function toggleAbout() {
+
+            const section =
+                document.getElementById("moreAbout");
+
+            const buttonText =
+                document.getElementById("buttonText");
+
+            section.classList.toggle("active");
+
+            if (section.classList.contains("active")) {
+                buttonText.textContent = "Show less ↑";
+            } else {
+                buttonText.textContent = "More about me";
+            }
+        }
+    </script>
+
+    <script>
+        function toggleProjects() {
+
+            const section =
+                document.getElementById("extraProjects");
+
+            const text =
+                document.getElementById("projectsButtonText");
+
+            section.classList.toggle("active");
+
+            if (section.classList.contains("active")) {
+                text.textContent =
+                    "Show less projects ↑";
+            } else {
+                text.textContent =
+                    "View all my projects";
+            }
+        }
+    </script>
+
+    <script>
+        window.toggleMenu = function () {
+            const menu = document.querySelector(".right");
+            const icon = document.getElementById("menuIcon");
+
+            menu.classList.toggle("active");
+
+            if (menu.classList.contains("active")) {
+                icon.classList.remove("lni-menu-hamburger-1");
+                icon.classList.add("lni-xmark");
+            } else {
+                icon.classList.remove("lni-xmark");
+                icon.classList.add("lni-menu-hamburger-1");
+            }
+
+            document.querySelectorAll(".right a").forEach(link => {
+                link.addEventListener("click", () => {
+                    document.querySelector(".right").classList.remove("active");
+
+                    const icon = document.getElementById("menuIcon");
+                    icon.classList.remove("lni-xmark");
+                    icon.classList.add("lni-menu-hamburger-1");
+                });
+            });
+        }; 
+    </script>
+
+
+
+</body>
+
+</html>
