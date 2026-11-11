@@ -595,7 +595,7 @@ button {
 }
 
 .extra-projects.active {
-  max-height: 1900px;
+  max-height: 3000px;
   opacity: 1;
   margin-top: 28px;
 }
