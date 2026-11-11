@@ -22,4 +22,5 @@ jobs:
         run: npx htmlhint "**/*.html"
 
       - name: Sjekk CSS-syntaks
-        run: npx stylelint "**/*.css" --allow-empty-input --rules '{"block-no-empty": true, "color-no-invalid-hex": true, "declaration-block-no-duplicate-properties": true, "property-no-unknown": true, "selector-type-no-unknown": true, "string-no-newline": true}'
+        run: |
+          npx stylelint "**/*.css" --allow-empty-input --rules '{"block-no-empty": true, "color-no-invalid-hex": true, "declaration-block-no-duplicate-properties": true, "property-no-unknown": true, "selector-type-no-unknown": true, "string-no-newline": true}'
