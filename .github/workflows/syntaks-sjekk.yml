@@ -22,4 +22,5 @@ jobs:
         run: npx htmlhint "**/*.html"
 
       - name: Sjekk CSS-syntaks
-        run: npx csstree-validator "**/*.css"
+        run: npx csstree-validator .
+
